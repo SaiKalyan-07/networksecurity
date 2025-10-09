@@ -16,7 +16,7 @@ import numpy as np
 import pymongo
 from networksecurity.exception.exception import NetworkSecurityException
 from networksecurity.logging.logger import logging
-'''
+
 class NetworkDataExtract():
     def __init__(self):
         try:
@@ -57,4 +57,3 @@ if __name__=='__main__':
     print(records)
     no_of_records=networkobj.insert_data_mongodb(records,DATABASE,Collection)
     print(no_of_records)
-'''
